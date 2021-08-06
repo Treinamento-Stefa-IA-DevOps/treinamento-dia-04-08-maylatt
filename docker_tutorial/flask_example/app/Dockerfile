@@ -9,7 +9,7 @@ COPY . /app
 WORKDIR /app  
 
 # instala as dependencias do python
-RUN pip install flask  
+RUN pip install flask psycopg2-binary
 
 # requerimento para rodar o flask run
 ENV FLASK_APP=flask_app.py  
