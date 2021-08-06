@@ -2,6 +2,7 @@ import pickle
 from fastapi import FastAPI
 
 app = FastAPI()
+
 @app.post('/model')
 ## Coloque seu codigo na função abaixo
 def titanic(Sex:int):
