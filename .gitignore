@@ -1,0 +1,2 @@
+## Ignora qualquer arquivo de cache do Python
+*.pyc
